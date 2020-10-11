@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header"> 
+        <div class="header__top">
+            <div class="header__container-top">
+                <div class="header__links col-6">
+                    <a href="#" class="header__link">ГЛАВНАЯ</a>
+                    <a href="#" class="header__link">О КОМПАНИИ</a>
+                    <a href="#" class="header__link">ССЫЛКА 1</a>
+                    <a href="#" class="header__link">ССЫЛКА 2</a>
+                    <a href="#" class="header__link">ССЫЛКА 3</a>
+                </div>
+
+                <div class="header__sing-in col-6">
+                    <a href="#"></a>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="header__container-bottom">
+                <div class="header__logo col-3">
+                    <img class="logo" src="./img/header/logo.svg" alt="logo">
+                </div>
+                <div class="header__phones col-6">
+                    <div class="phone-1">+380 98 170 00 740</div>
+                    <div class="phone-2">+380 98 170 00 740</div>
+                    <div class="call-me-btn"></div>
+                </div>
+                <div class="col-3 flex">
+                    <div class="header__compare flex">
+                        <img class="compare-img" src="./img/header/compare.svg">
+                        <span>СРАВНЕНИЕ</span>
+                    </div>
+                    <div class="header__favorites flex">
+                        <img class="compare-img" src="./img/header/favorites.svg">
+                        <span>ИЗБРАННОЕ</span>
+                    </div>
+                    <div class="header__basket flex">
+                        <img class="compare-img" src="./img/header/basket.svg">
+                        <span>КОРЗИНА</span>
+                    </div>
+                </div>
+            </div>
+        </div>      
+    </header>
+    <div class="container">
+        <div class="top flex">
+            <div class="top__menu col-3 flex">
+                <div class="top__menu-captions flex">
+                    <div class="burger"></div>
+                    <div class="menu-title flex">
+                        <span>Меню</span>
+                    </div>
+                </div>  
+                <div class="top__menu-link flex">
+                    <span>ССЫЛКА 1</span>
+                    <span id="link-arrow">></span>
+                </div>
+                <div class="top__menu-link flex">
+                    <span>ССЫЛКА 2</span>
+                    <span id="link-arrow">></span>
+                </div>
+                <div class="top__menu-link flex">
+                    <span>ССЫЛКА 3</span>
+                    <span id="link-arrow">></span>
+                </div>
+                <div class="top__menu-link flex">
+                    <span>ССЫЛКА 4</span>
+                    <span id="link-arrow">></span>
+                </div>
+                <div class="top__menu-link flex">
+                    <span>ССЫЛКА 5</span>
+                    <span id="link-arrow">></span>
+                </div>
+                <div class="top__menu-link flex">
+                    <span>ССЫЛКА 6</span>
+                    <span id="link-arrow">></span>
+                </div>
+                <div class="top__menu-link flex">
+                    <span>ССЫЛКА 7</span>
+                    <span id="link-arrow">></span>
+                </div>
+            </div>
+            <div class="col-9 flex">
+                <form class="top__search flex">
+                    <input  class="top__search-input col-8" type="text" placeholder="Поиск по сайту">
+                    <select class="top__search-select col-2" name="category" id="">
+                        <option>Все категории</option>
+                        <option>Все категории</option>
+                        <option>Все категории</option>
+                    </select>
+                    <input class="top__search-submit col-2" type="submit" value="ПОИСК">
+                </form>
+                <form class="top__form">
+                    <div class="top__form-header flex">
+                        <a href="#" class="form-link link flex form-link--active">
+                            <span class="form-link__icon">
+                                <img src="./img/top/icon1.png" alt="icon1">
+                            </span>
+                            <span class="form-link__text">
+                                Ссылка 1
+                            </span>
+                        </a>
+                        <a href="#" class="form-link link flex">
+                            <span class="form-link__icon">
+                                <img src="./img/top/icon2.png" alt="icon2">
+                            </span>
+                            <span class="form-link__text">
+                                Ссылка 2
+                            </span>
+                        </a>
+                        <a href="#" class="form-link link flex">
+                            <span class="form-link__icon">
+                                <img src="./img/top/icon3.png" alt="icon3">
+                            </span>
+                            <span class="form-link__text">
+                                Ссылка 3
+                            </span>
+                        </a>
+                        <a href="#" class="form-link link flex">
+                            <span class="form-link__icon">
+                                <img src="./img/top/icon4.png" alt="icon4">
+                            </span>
+                            <span class="form-link__text">
+                                Ссылка 4
+                            </span>
+                        </a>
+                        <a href="#" class="form-link link flex">
+                            <span class="form-link__icon">
+                                <img src="./img/top/icon5.png" alt="icon5">
+                            </span>
+                            <span class="form-link__text">
+                                Ссылка 5
+                            </span>
+                        </a>
+                       
+                    </div>
+                    <div class="top__form-tabs flex">
+                        <div class="tabs__row1 flex">
+                            <img class="tabs__switch" src="/img/top/Tabs_link.png" alt="switch">
+                        </div>
+                        <div class="tabs__row2 flex">
+                            <img class="tabs__select" src="/img/top/select-1.png" alt="switch">
+                            <img class="tabs__select" src="/img/top/select-2.png" alt="switch">
+                            <img class="tabs__select" src="/img/top/select-3.png" alt="switch">
+                            <img class="tabs__select" src="/img/top/select-4.png" alt="switch">
+                            
+                        </div>
+                        <div class="tabs__row3 flex">
+                            <img class="tabs__select" src="/img/top/select-6.png" alt="switch">
+                            <span class="tabs__price-title">Цена</span>
+                            <img class="tabs__price-icon" src="/img/top/price.png" alt="switch">
+                        </div>
+                    </div>
+                    <div class="top__form-bottom flex">
+                        <input  class="form-clear" type="submit" value="Очистить фильтр">
+                        <input  class="form-apply" type="submit" value="ПРИМЕНИТЬ ФИЛЬТР">
+                    </div>
+                </form>
+            </div>   
+        </div>
+    </div>
+    <div class="container">
+        <main class="main flex">
+            <div class="main__title flex">
+                <div class="main__title-text">Карточки товаров</div>
+                <div class="main__title-link flex">
+                    <a href="#">Ссылка в каталог</a> 
+                    <span class="arrow-icon"></span>
+                </div>
+            </div>
+            <div class="main__cards">
+                <div class="main__card">
+
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
+
+
+
+<!-- <div class="header__container">
+    <div class="header__nav">
+        <div class="header__menu">
+            <a href="#" class="header__link">ГЛАВНАЯ</a>
+            <a href="#" class="header__link">О КОМПАНИИ</a>
+            <a href="#" class="header__link">ССЫЛКА 1</a>
+            <a href="#" class="header__link">ССЫЛКА 2</a>
+            <a href="#" class="header__link">ССЫЛКА 3</a>
+        </div>
+        <div class="header__sing-in">
+            <a href="#"></a>
+        </div>
+    </div>
+</div> -->

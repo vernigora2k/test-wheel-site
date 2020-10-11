@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.container {
+    max-width: 1361px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    // justify-content: space-between;
+}
+
+.link {text-decoration: none;}
