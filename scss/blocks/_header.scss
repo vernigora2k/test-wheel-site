@@ -372,7 +372,7 @@
     justify-content: space-between;
 }
 .arrow-icon {
-    background-image: url(/img/top/arrow.png);
+    background-image: url(/img/main/arrow.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 18px 4px;
@@ -381,6 +381,17 @@
     
 }
 
+.main__cards {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1361px;
+}
+
+.main__card {
+    // width: 340px;
+    // height: 572px;
+    border: 1px solid #dbdbdb;
+}
 
 
 

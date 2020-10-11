@@ -375,12 +375,22 @@ body {
 }
 
 .arrow-icon {
-  background-image: url(/img/top/arrow.png);
+  background-image: url(/img/main/arrow.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 18px 4px;
   fill: yellow;
   width: 25px;
+}
+
+.main__cards {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1361px;
+}
+
+.main__card {
+  border: 1px solid #dbdbdb;
 }
 
 .col-1 {
