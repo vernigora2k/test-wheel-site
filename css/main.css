@@ -883,6 +883,22 @@ body {
   opacity: 0.1;
 }
 
+.footer__bottom {
+  margin-top: 10px;
+  border-top: 1px solid #dbdbdb2a;
+}
+
+.footer__logo {
+  height: 40px;
+  padding-right: 25px;
+  border-right: 1px solid #dbdbdb2a;
+}
+
+.footer__copy {
+  align-self: center;
+  margin-left: 30px;
+}
+
 .col-1 {
   width: calc(8.33333% - 10px);
 }
