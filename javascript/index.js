@@ -9,6 +9,9 @@ const subscribeFormInput = document.querySelector('.subscribe-form__input')
 const subscribeFormSubmit = document.querySelector('.subscribe-form__submit')
 const topSearch = document.querySelector('.top__search')
 const topSearchInput = document.querySelector('.top__search-input')
+const applyFilterBtn = document.querySelector('.form-apply')
+const formFilterPrice1 = document.querySelector('.price-1')
+const formFilterPrice2 = document.querySelector('.price-2')
 
 singInBtn.addEventListener('click', () => {
     popupSingIn.classList.toggle('active')
@@ -36,6 +39,10 @@ topSearch.addEventListener('submit', (event) => {
     showCorrectSearch(isValidSearch(topSearchInput.value))
 })
 
+applyFilterBtn.addEventListener('click', () => {
+    showCorrectNumber(isValidNumber(formFilterPrice1.value, formFilterPrice2.value))
+})
+
 function isValidEmail(email) {
     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(String(email).toLowerCase());
@@ -43,6 +50,14 @@ function isValidEmail(email) {
 
 function isValidSearch(searchWord) {
     return searchWord.length>2
+}
+
+function isValidNumber(num1, num2) {
+    return (num1>0 && num2>0 && isFinite(num1) && isFinite(num2)) 
+}
+
+function showCorrectNumber(isShow) {
+    if (!isShow) alert('введите корректное значение!')
 }
 
 function showCorrectSearch(isShow) {
