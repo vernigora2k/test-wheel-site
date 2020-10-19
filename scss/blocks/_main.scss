@@ -1,3 +1,4 @@
+@media screen and (min-width: 950px) {
 .main {
     flex-direction: column;
 }
@@ -310,4 +311,8 @@
         height: 26px;
         margin-right: 10px;
     }
+}}
+
+@media screen and (max-width: 949px) and (min-width: 715px) {
+    
 }
