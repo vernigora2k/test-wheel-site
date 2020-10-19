@@ -1,4 +1,4 @@
-@media screen and (min-width: 950px) {
+// @media screen and (min-width: 1395px) {
 .main {
     flex-direction: column;
 }
@@ -45,6 +45,7 @@
     padding-left: 10px;
     padding-right: 10px;
     border-right: 1px solid #dbdbdb;
+    margin-bottom: 15px;
 }
 .card__marks {
     margin-bottom: 20px;
@@ -311,8 +312,54 @@
         height: 26px;
         margin-right: 10px;
     }
-}}
+}
+// }
 
-@media screen and (max-width: 949px) and (min-width: 715px) {
-    
+@media screen and (min-width: 1050px) and (max-width: 1394px) {
+    .container {
+        max-width: 1055px;
+    }
+    .main__cards {
+        max-width: 1055px;
+        margin: 0 auto;
+    }
+    .main__card:nth-child(3) {
+        border-right: none;
+    }
+}
+
+@media screen and (min-width: 715px) and (max-width: 1049px) {
+    .container {
+        max-width: 715px;
+    }
+    .main__cards {
+        max-width: 1055px;
+        margin: 0 auto;
+    }
+    .main__card:nth-child(2) {
+        border-right: none;
+    }
+}
+
+@media screen and (max-width: 714px) {
+    .container {
+        max-width: 360px;
+    }
+    .main__title {
+        justify-content: flex-end;
+    }
+    .main__title-text {
+        display: none;
+    }
+    .main__cards {
+        max-width: 1055px;
+        margin: 0 auto;
+    }
+    .main__card {
+        border-right: none;
+        border-bottom: 1px solid #dbdbdb;
+    }
+    .main__card:last-child {
+        border-bottom: none;
+    }
 }
