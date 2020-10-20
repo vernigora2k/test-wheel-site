@@ -1159,13 +1159,13 @@ body {
 }
 @media screen and (max-width: 714px) {
   .footer {
-    height: 750px;
+    height: 550px;
     margin-top: 15px;
   }
 
   .footer-container {
     max-width: 360px;
-    height: 750px;
+    height: 550px;
     flex-direction: column;
   }
 
@@ -1307,7 +1307,7 @@ body {
 
   .footer__bottom {
     flex-direction: row;
-    margin-top: 10px;
+    margin-top: -180px;
     border-top: 1px solid #dbdbdb2a;
   }
 
