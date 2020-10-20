@@ -43,7 +43,7 @@ body {
 }
 
 .header__links {
-  width: 455px;
+  min-width: 490px;
 }
 
 .header__link {
@@ -158,6 +158,86 @@ body {
   cursor: pointer;
 }
 
+@media screen and (min-width: 1050px) and (max-width: 1394px) {
+  .header__container-top {
+    max-width: 1050px;
+  }
+
+  .header__container-bottom {
+    max-width: 1050px;
+  }
+
+  .header__compare {
+    padding-right: 15px;
+    padding-left: 10px;
+  }
+
+  .header__favorites {
+    padding-right: 15px;
+  }
+
+  .header__basket {
+    padding-right: 15px;
+  }
+}
+@media screen and (min-width: 715px) and (max-width: 1049px) {
+  .header__container-top {
+    max-width: 715px;
+  }
+
+  .header__container-bottom {
+    max-width: 715px;
+  }
+
+  .header__compare {
+    padding-right: 15px;
+    padding-left: 10px;
+  }
+
+  .header__favorites {
+    padding-right: 15px;
+  }
+
+  .header__basket {
+    padding-right: 15px;
+  }
+}
+@media screen and (max-width: 714px) {
+  .header__container-top {
+    max-width: 360px;
+  }
+
+  .header__links {
+    min-width: 300px;
+  }
+
+  .header__link {
+    margin-right: 8px;
+    font-size: 10px;
+  }
+
+  .header__sing-in > a {
+    width: 60px;
+    background-size: 40px 13px;
+  }
+
+  .header__container-bottom {
+    max-width: 715px;
+  }
+
+  .header__compare {
+    padding-right: 15px;
+    padding-left: 10px;
+  }
+
+  .header__favorites {
+    padding-right: 15px;
+  }
+
+  .header__basket {
+    padding-right: 15px;
+  }
+}
 .top {
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -725,6 +805,10 @@ body {
     max-width: 1055px;
   }
 
+  .main__title-text {
+    font-size: 28px;
+  }
+
   .main__cards {
     max-width: 1055px;
     margin: 0 auto;
@@ -1048,7 +1132,7 @@ body {
   .block-1__subscribe-form {
     justify-content: space-between;
     max-width: 335px;
-    height: 50px;
+    height: 40px;
     background-color: #f5f5f5;
     margin-top: 16px;
   }
