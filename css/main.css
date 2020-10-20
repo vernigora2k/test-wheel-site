@@ -167,6 +167,10 @@ body {
     max-width: 1050px;
   }
 
+  .header__phones > div {
+    flex-wrap: nowrap;
+  }
+
   .header__compare {
     padding-right: 15px;
     padding-left: 10px;
@@ -189,31 +193,106 @@ body {
     max-width: 715px;
   }
 
+  .header__phones {
+    width: 260px !important;
+    margin-left: 20px;
+  }
+
+  .phones-container {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 50px;
+  }
+
+  .phone-1 {
+    width: 130px;
+    font-size: 12px;
+    padding: none;
+    padding-top: 6px;
+    padding-bottom: 5px;
+  }
+
+  .phone-2 {
+    width: 130px;
+    font-size: 12px;
+    padding: none;
+    padding-top: 5px;
+    padding-bottom: 6px;
+  }
+
+  .call-me-btn {
+    width: 120px;
+    background-size: 100px;
+  }
+
+  .header__logo > img {
+    width: 170px;
+  }
+
+  .header__container-bottom > div:nth-child(3) {
+    width: 270px;
+  }
+
   .header__compare {
-    padding-right: 15px;
+    padding-right: 25px;
     padding-left: 10px;
+    height: 40px;
+    font-size: 8px;
+  }
+
+  .header__compare > img {
+    width: 30px;
   }
 
   .header__favorites {
-    padding-right: 15px;
+    padding-right: 25px;
+    padding-left: 10px;
+    height: 40px;
+    font-size: 8px;
+  }
+
+  .header__favorites > img {
+    width: 30px;
   }
 
   .header__basket {
-    padding-right: 15px;
+    padding-right: 25px;
+    padding-left: 10px;
+    height: 40px;
+    font-size: 8px;
+  }
+
+  .header__basket > img {
+    width: 30px;
   }
 }
 @media screen and (max-width: 714px) {
   .header__container-top {
     max-width: 360px;
+    position: relative;
   }
 
   .header__links {
-    min-width: 300px;
+    min-width: 360px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
   }
 
   .header__link {
     margin-right: 8px;
     font-size: 10px;
+  }
+  .header__link:hover {
+    color: white;
+    border-bottom: 2px solid #ffc925;
+    padding-bottom: 16px;
+  }
+
+  .header__sing-in {
+    position: absolute;
+    top: 50px;
+    right: 0px;
   }
 
   .header__sing-in > a {
@@ -222,20 +301,80 @@ body {
   }
 
   .header__container-bottom {
-    max-width: 715px;
+    margin-top: 20px;
+    max-width: 360px;
+  }
+
+  .header__container-bottom > div:nth-child(3) {
+    position: absolute;
+    justify-content: space-around;
+    width: 300px;
+    top: 55px;
   }
 
   .header__compare {
-    padding-right: 15px;
+    padding-right: 35px;
     padding-left: 10px;
+    height: 40px;
+    font-size: 8px;
+  }
+
+  .header__compare > img {
+    width: 30px;
   }
 
   .header__favorites {
-    padding-right: 15px;
+    padding-right: 30px;
+    padding-left: 10px;
+    height: 40px;
+    font-size: 8px;
+  }
+
+  .header__favorites > img {
+    width: 30px;
   }
 
   .header__basket {
-    padding-right: 15px;
+    padding-right: 25px;
+    padding-left: 10px;
+    height: 40px;
+    font-size: 8px;
+  }
+
+  .header__basket > img {
+    width: 30px;
+  }
+
+  .header__logo > img {
+    width: 120px;
+  }
+
+  .header__phones {
+    width: 225px !important;
+  }
+
+  .phone-1 {
+    width: 150px;
+    font-size: 12px;
+    padding: none;
+    padding-left: 23px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+  }
+
+  .phone-2 {
+    width: 150px;
+    font-size: 12px;
+    padding: none;
+    padding-left: 23px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+  }
+
+  .call-me-btn {
+    width: 110px;
+    background-image: url(/img/header/phone-line.png);
+    background-size: 20px;
   }
 }
 .top {
