@@ -144,9 +144,6 @@
     .header__container-top {
         max-width: 715px;
     }
-    // .header__phones {
-    //     width: 200px;
-    // }
     .header__container-bottom {
         max-width: 715px;
     }
@@ -160,7 +157,6 @@
         height: 50px;
     }
     .phone-1 {
-        // height: 20px;
         width: 130px;
         font-size: 12px;
         padding: none;
@@ -168,7 +164,6 @@
         padding-bottom: 5px;
     }
     .phone-2 {
-        // height: 20px;
         width: 130px;
         font-size: 12px;
         padding: none;
@@ -235,15 +230,13 @@
         }
     }
     .header__sing-in {
-        // display: none;
         position: absolute;
         top: 50px;
         right: 0px;
     }
     .header__sing-in>a {
         width: 60px;
-        background-size: 40px 13px;
-        
+        background-size: 40px 13px; 
     }
     .header__container-bottom {
         margin-top: 20px;
@@ -282,7 +275,6 @@
     .header__basket>img {
         width: 30px;
     }
-
     .header__logo>img {
         width: 120px;   
     }
@@ -290,7 +282,6 @@
         width: 225px !important;
     }
     .phone-1 {
-        // height: 20px;
         width: 150px;
         font-size: 12px;
         padding: none;
@@ -299,7 +290,6 @@
         padding-bottom: 5px;
     }
     .phone-2 {
-        // height: 20px;
         width: 150px;
         font-size: 12px;
         padding: none;
